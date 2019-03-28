@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View, ScrollView } from "react-native";
 
+import Header from "./Header";
+
 class Main extends Component {
   state = {};
   render() {
     return (
       <ScrollView style={styles.root}>
-        <View>
-          <Text>Main Component</Text>
-        </View>
+        <Header />
       </ScrollView>
     );
   }

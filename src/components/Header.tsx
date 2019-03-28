@@ -35,7 +35,6 @@ const styles = StyleSheet.create({
   logo: {
     fontSize: 20,
     marginLeft: 10,
-    fontStyle: "italic",
     color: "#292929"
   }
 });
